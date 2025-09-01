@@ -1,0 +1,90 @@
+.card-container {
+    display: flex;
+    padding: 20px 0 170px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card {
+  border: 1px solid rgba(206, 206, 206, 1);
+  border-radius: 8px;
+  width: 332px; 
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #fff;
+}
+
+.icone {
+  display: flex;
+  background-color: var(--cor, rgba(182, 213, 255, 1));
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 185px;
+}
+
+
+.icone img {
+    width: 166px;
+    height: 116px;
+}
+
+.titulo h2 {
+    font-size: 24px;
+    font-weight: 400;
+    padding: 16px 16px 0 16px;
+    text-align: left; 
+}
+
+.texto {
+    font-size: 16px;
+    padding: 8px 16px; 
+    text-align: left; 
+    line-height: 1.4; 
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px 16px 16px 16px;
+    gap: 8px;
+}
+
+
+.tag {
+    display: flex;
+    border: solid 1px rgba(95, 99, 105, 1);
+    border-radius: 4px;
+    color: rgba(95, 99, 105, 1);
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+}
+
+.link {
+    display: flex;
+    padding: 0 178px 24px 16px;
+}
+
+.link a {
+    display: flex;
+    border: solid 1px rgba(206, 206, 206, 1);
+    border-radius: 4px;
+    background-color: rgba(28, 115, 232, 1);
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.link a:hover {
+    background-color: rgb(66, 134, 223);
+    color: white;
+}
